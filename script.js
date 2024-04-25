@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+let document.addEventListener('DOMContentLoaded', () => {
     const todosContainer = document.getElementById('todosList');
 
     fetch('https://jsonplaceholder.typicode.com/todos')
